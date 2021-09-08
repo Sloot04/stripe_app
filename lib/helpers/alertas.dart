@@ -13,7 +13,7 @@ mostrarLoading(BuildContext context) {
 mostrarAlerta(BuildContext context, String titulo, String mensaje) {
   showDialog(
       context: context,
-      barrierDismissible: false,
+      barrierDismissible: false, 
       builder: (_) => AlertDialog(
             title: Text(titulo),
             content: Text(mensaje),
