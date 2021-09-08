@@ -1,6 +1,6 @@
 part of 'pagar_bloc.dart';
 
-@Immutable
+@immutable
 abstract class PagarEvent {}
 
 class OnSeleccionarTarjeta extends PagarEvent {

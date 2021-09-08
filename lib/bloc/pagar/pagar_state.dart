@@ -1,6 +1,6 @@
 part of 'pagar_bloc.dart';
 
-@Immutable
+@immutable
 class PagarState {
   final double montoPagar;
   final String moneda;
